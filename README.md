@@ -1,12 +1,18 @@
 # Coord Picker
 
-A tiny always-on-top window that shows your **live mouse position in screen pixels** and copies `x, y` to the clipboard — so you can point me (Claude) at an exact spot on your screen and just paste the numbers.
+A tiny always-on-top window (Windows) that shows your **live mouse position in screen pixels** and copies `x, y` to the clipboard — so you can point Claude at an exact spot on your screen and just paste the numbers. Handy when you're asking Claude to help with GUI work, scripting, or anything position-related.
 
-## Run it
+## Set it up with your Claude (easiest)
 
-Double-click **`Run Coordinate Picker.cmd`**.
+Paste this to **Claude Code**:
 
-(Or run `coord-picker.ps1` directly: right-click → Run with PowerShell.)
+> **"Set up the tool in this repo: https://github.com/oscareneriz/coord-picker — follow its CLAUDE.md."**
+
+## Run it yourself
+
+Download this repo (green **Code → Download ZIP**, unzip — or `gh repo clone oscareneriz/coord-picker`), then double-click **`Run Coordinate Picker.cmd`**.
+
+(Or run `coord-picker.ps1` directly: right-click → Run with PowerShell. Windows only — it uses .NET WinForms.)
 
 ## Use it
 
